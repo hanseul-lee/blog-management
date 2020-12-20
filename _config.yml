@@ -41,7 +41,7 @@ external_link:
   exclude: ""
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
+post_asset_folder: true
 relative_link: false
 future: true
 highlight:
@@ -98,10 +98,29 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: next
+theme: tranquilpeak
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
   repo: https://github.com/hanseul-lee/hanseul-lee.github.io.git
+  
+
+toc:
+  maxdepth: 3
+  class: toc
+  slugify: transliteration
+  anchor:
+    position: before
+    symbol: '#'
+    style: header-anchor
+
+# Comments
+comments: 
+  utterances:
+    enable: true
+    repo: hanseul-lee/blog-comments
+    issue_term: title
+    theme: github-light
+

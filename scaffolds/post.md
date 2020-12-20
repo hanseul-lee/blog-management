@@ -1,5 +1,12 @@
 ---
 title: {{ title }}
-date: {{ date }}
-tags:
+date: {{date}}
+categories: []
+tags: []
+thumbnailImage: js.png 
 ---
+
+<!-- more -->
+
+<!-- excerpt -->
+<!-- toc -->
