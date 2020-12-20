@@ -237,6 +237,13 @@ gitalk:
     enableHotKey: true
     pagerDirection: "first"
 
+# Comments
+  # utterances:
+  #   enable: true
+  #   repo: hanseul-lee/blog-comments
+  #   issue_term: title
+  #   theme: github-light
+
 # -------------------
 # Integrated services
 # -------------------
@@ -317,20 +324,11 @@ fb_app_id:
 #        icon: "fab fa-odnoklassniki"
 #        url: "https://connect.ok.ru/offer?url={{post.permalink}}"
 
-
-toc:
-  maxdepth: 3
-  class: toc
-  slugify: transliteration
-  anchor:
-    position: before
-    symbol: '#'
-    style: header-anchor
-
-# Comments
-comments:
-  utterances:
-    enable: true
-    repo: hanseul-lee/blog-comments
-    issue_term: title
-    theme: github-light
+# toc:
+#   maxdepth: 3
+#   class: toc
+#   slugify: transliteration
+#   anchor:
+#     position: before
+#     symbol: '#'
+#     style: none

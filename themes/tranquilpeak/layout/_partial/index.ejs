@@ -24,7 +24,7 @@
             } else {
                 tableOfContents = '<span id="table-of-contents"></span>';
             }
-            tableOfContents += toc(postContent, {list_number: false})
+            tableOfContents += toc(postContent, {list_number: none})
             postContent = postContent.replace(/<!--(\s*)[t|T][o|O][c|C](\s*)-->/, tableOfContents)
         }
     %>

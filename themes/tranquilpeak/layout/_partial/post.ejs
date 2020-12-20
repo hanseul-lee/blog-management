@@ -38,22 +38,21 @@
             <div class="post-footer-tags">
                 <span class="text-color-light text-small"><%= __('post.tagged_in') %></span><br/>
                 <%- partial('post/tag', {tags: post.tags})%>
-            </div>
-        <% } %>
-        <!-- Comment -->
-        <%- partial('comment') %>
-        <% if (post.actions === undefined || post.actions) { %>
-            <%- partial('post/actions', {postContent: postContent}) %>
-        <% } %>
-        <% if (post.comments) { %>
-            <% if (theme.disqus_shortname) { %>
-                <%- partial('post/disqus') %>
-            <% } else if (theme.gitment.enable) { %>
-                <%- partial('post/gitment') %>
-            <% } else if (theme.gitalk.enable) { %>
-                <%- partial('post/gitalk') %>
-            <% } %>
-        <% } %>
+              </div>
+              <% } %>
+              <!-- Comment -->
+              <% if (post.comments) { %>
+                <% if (theme.disqus_shortname) { %>
+                  <%- partial('post/disqus') %>
+                  <% } else if (theme.gitment.enable) { %>
+                    <%- partial('post/gitment') %>
+                    <% } else if (theme.gitalk.enable) { %>
+                      <%- partial('post/gitalk') %>
+                    <% } %>
+                <% } %>
+              <% if (post.actions === undefined || post.actions) { %>
+                <%- partial('post/actions', {postContent: postContent}) %>
+                <% } %>
     </div>
 </article>
 

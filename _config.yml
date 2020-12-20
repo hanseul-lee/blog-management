@@ -114,13 +114,12 @@ toc:
   anchor:
     position: before
     symbol: '#'
-    style: header-anchor
+    style: none
 
 # Comments
-comments: 
-  utterances:
-    enable: true
-    repo: hanseul-lee/blog-comments
-    issue_term: title
-    theme: github-light
+utterances:
+  enable: true
+  repo: hanseul-lee/blog-comments
+  issue_term: title
+  theme: github-light
 
