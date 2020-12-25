@@ -192,6 +192,10 @@ tag_pagination: true
 # Comment systems
 # ---------------
 
+# utterances
+utterances:
+    enable: true
+
 # Your Disqus shortname
 disqus_shortname:
 # Your Gitment information
