@@ -111,10 +111,10 @@ toc:
   maxdepth: 3
   class: toc
   slugify: transliteration
-  anchor:
-    position: before
-    symbol: '#'
-    style: none
+  # anchor:
+  #   position: before
+  #   symbol: '#'
+  #   style: none
 
 # Comments
 utterances:

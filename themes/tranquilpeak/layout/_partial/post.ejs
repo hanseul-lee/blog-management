@@ -9,7 +9,7 @@
         } else {
             tableOfContents = '<span id="table-of-contents"></span>';
         }
-        tableOfContents += toc(postContent, {list_number: true})
+        tableOfContents += toc(postContent, {list_number: false})
         postContent = postContent.replace(/<!--(\s*)[t|T][o|O][c|C](\s*)-->/, tableOfContents)
     }
     // Replace `<!-- endcontent -->` by `</div>` and `<!-- content -->` by `</div class="main-content-wrap">`
