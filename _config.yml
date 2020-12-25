@@ -97,6 +97,9 @@ ignore:
 
 # Extensions
 ## Plugins: https://hexo.io/plugins/
+plugins:
+  google_analytics: UA-11111111-2
+
 ## Themes: https://hexo.io/themes/
 theme: tranquilpeak
 
@@ -143,3 +146,4 @@ robotstxt:
   allow:
     - /
   sitemap: https://hanseul-lee.github.io/sitemap.xml
+
