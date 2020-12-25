@@ -194,7 +194,7 @@ tag_pagination: true
 
 # utterances
 utterances:
-    enable: true
+  enable: true
 
 # Your Disqus shortname
 disqus_shortname:
