@@ -106,7 +106,7 @@ deploy:
   type: git
   repo: https://github.com/hanseul-lee/hanseul-lee.github.io.git
   
-
+# toc
 toc:
   maxdepth: 3
   class: toc
@@ -123,3 +123,23 @@ utterances:
   issue_term: title
   theme: github-light
 
+# nofollow
+nofollow:
+  enable: true
+  exclude:
+
+feed:
+  type: rss2
+  path: rss2.xml
+  limit: 20
+
+sitemap:
+  path: sitemap.xml
+  tag: false
+  category: false
+
+robotstxt:
+  useragent: "*"
+  allow:
+    - /
+  sitemap: https://hanseul-lee.github.io/sitemap.xml
