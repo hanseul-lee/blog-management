@@ -99,7 +99,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 plugins:
-  google_analytics: UA-11111111-2
+  google_analytics: G-9J92KM2J1F
 
 ## Themes: https://hexo.io/themes/
 theme: tranquilpeak
