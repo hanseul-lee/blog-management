@@ -1,6 +1,6 @@
 # date format displayed everywhere in the blog
-date_format: "YYYY.MM.DD"
-updated_format: "YYYY.MM.DD HH:mm:ss"
+date_format: "YY.MM.DD"
+updated_format: "YY.MM.DD HH:mm:ss"
 
 global:
   home: "Home"

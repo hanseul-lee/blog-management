@@ -42,7 +42,7 @@ sidebar:
       icon: fa fa-caret-right
     category-name2:
       title: study-log
-      url: /category-Fastcampus
+      url: /category-StudyLog
       icon: fa fa-caret-right
     category-name3:
       title: TIL

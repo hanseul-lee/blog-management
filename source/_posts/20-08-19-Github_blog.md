@@ -3,7 +3,7 @@ title: "[git] hexo를 이용한 github blog 포스팅하기"
 date: 2020-08-19 15:25:33
 tags: [github,git]
 categories:
-  - Fastcampus
+  - StudyLog
   - git
 thumbnailImage: git.jpeg
 ---

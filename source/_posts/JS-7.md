@@ -2,7 +2,7 @@
 title: 7. 연산자
 date: 2020-08-24 21:00:01
 categories:
-  - Fastcampus
+  - StudyLog
   - Javascript
 tags: javascript
 thumbnailImage: js.png

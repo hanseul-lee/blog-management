@@ -2,7 +2,7 @@
 title: 6. 데이터 타입
 date: 2020-08-24 21:00:00
 categories:
-  - Fastcampus
+  - StudyLog
   - Javascript
 tags: javascript
 thumbnailImage: js.png

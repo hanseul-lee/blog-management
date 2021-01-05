@@ -2,7 +2,7 @@
 title: 9. 타입 변환과 단축 평가
 date: 2020-08-25 00:26:00
 categories:
-  - Fastcampus
+  - StudyLog
   - Javascript
 tags:
   - javascript

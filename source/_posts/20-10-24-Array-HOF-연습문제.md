@@ -1,6 +1,6 @@
 ---
 title: "[과제] Array HOF 연습문제"
-categories: [Fastcampus, 문제 풀이]
+categories: [StudyLog, 문제 풀이]
 tags: []
 thumbnailImage: HW.jpg
 date: 2020-10-24 15:14:34

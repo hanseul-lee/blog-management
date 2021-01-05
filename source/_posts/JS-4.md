@@ -2,7 +2,7 @@
 title: "4. 변수"
 date: 2020-08-19 14:55:23
 categories:
-  - Fastcampus
+  - StudyLog
   - Javascript
 tags: javascript
 thumbnailImage: js.png

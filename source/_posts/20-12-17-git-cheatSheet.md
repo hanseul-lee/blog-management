@@ -1,6 +1,6 @@
 ---
 title: "[git] git 명령어 정리"
-categories: [Fastcampus, git]
+categories: [StudyLog, git]
 tags: [github,git]
 thumbnailImage: git.jpeg
 date: 2020-12-17 13:56:47

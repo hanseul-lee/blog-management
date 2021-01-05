@@ -2,7 +2,7 @@
 title: 8. 제어문
 date: 2020-08-25 00:25:00
 categories:
-  - Fastcampus
+  - StudyLog
   - Javascript
 tags:
   - javascript

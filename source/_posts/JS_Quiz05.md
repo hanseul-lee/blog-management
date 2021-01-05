@@ -1,6 +1,6 @@
 ---
 title: "[퀴즈] Javascript Quiz05 - 2020.10.23"
-categories: [Fastcampus, 문제 풀이]
+categories: [StudyLog, 문제 풀이]
 tags: [javascript]
 thumbnailImage: js.png
 date: 2020-10-23 19:57:02

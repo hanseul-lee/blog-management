@@ -1,6 +1,6 @@
 ---
 title: "[React] 컴포넌트 스타일링"
-categories: [Fastcampus, React]
+categories: [StudyLog, React]
 tags: [React]
 thumbnailImage: React.jpg
 date: 2020-12-20 09:49:03

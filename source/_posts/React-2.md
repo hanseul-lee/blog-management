@@ -1,6 +1,6 @@
 ---
 title: "[React] JSX 문법"
-categories: [Fastcampus, React]
+categories: [StudyLog, React]
 tags: [React]
 thumbnailImage: React.jpg
 date: 2020-12-18 01:01:01
@@ -53,3 +53,8 @@ return (
 
 - JSX 내부 주석 : `{/* 내부 주석은 이렇게*/}`
 태그 내부 주석 : `// 태그 내 주석은 이렇게`
+
+
+---
+**Reference**
+- 김민준, 리액트를 다루는 기술

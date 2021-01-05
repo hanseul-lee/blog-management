@@ -1,6 +1,6 @@
 ---
 title: "[git] Default 브랜치명 변경하기 (master -> main)"
-categories: [Fastcampus, git]
+categories: [StudyLog, git]
 tags: [github,git]
 thumbnailImage: git.jpeg
 date: 2020-12-17 11:26:36

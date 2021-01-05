@@ -1,6 +1,6 @@
 ---
 title: "[git] gitHub에 new repository 생성하기"
-categories: [Fastcampus, git]
+categories: [StudyLog, git]
 tags: [gitHub,git]
 thumbnailImage: git.jpeg
 date: 2020-12-17 12:21:32

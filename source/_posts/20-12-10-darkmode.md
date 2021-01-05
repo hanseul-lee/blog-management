@@ -1,6 +1,6 @@
 ---
 title: "[js연습] Darkmode 구현하기"
-categories: [Fastcampus, js연습]
+categories: [StudyLog, js연습]
 tags: [javascript]
 thumbnailImage: js.png
 date: 2020-12-10 20:04:01

@@ -2,7 +2,7 @@
 title: 5. 표현식과 문
 date: 2020-08-21
 categories:
-  - Fastcampus
+  - StudyLog
   - Javascript
 tags: javascript
 thumbnailImage: js.png
