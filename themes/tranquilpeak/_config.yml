@@ -45,8 +45,8 @@ sidebar:
       url: /category-StudyLog
       icon: fa fa-caret-right
     category-name3:
-      title: TIL
-      url: /category-TIL
+      title: Algorithm
+      url: /category-Algorithm
       icon: fa fa-caret-right
     tags:
       title: global.tags

@@ -1,5 +1,5 @@
 ---
-title: "[미니 프로젝트] WATFLICHA - 영화 정보 사이트"
+title: "[프로젝트] WATFLICHA - 영화 정보 사이트"
 categories: [project]
 tags: [WATFLICHA, Fastcampus]
 thumbnailImage: WATFLICHA-logo.png

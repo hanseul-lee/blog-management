@@ -1,5 +1,5 @@
 ---
-title: "[미니 프로젝트] WATFLICHA - 2차 구현 TIL (2주차 : 20.11.30 ~ 20.12.06)"
+title: "[프로젝트] WATFLICHA - 2차 구현 TIL (2주차 : 20.11.30 ~ 20.12.06)"
 categories: [project]
 tags: [프로젝트, WATFLICHA, Fastcampus]
 thumbnailImage: WATFLICHA-logo.png
