@@ -160,7 +160,6 @@ Disallow: /
     5. dependency관련 에러는 반드시 해결할 것
     6. let이 아니라 const 사용
     7. useMemo → 쓰지말고 useLocaion Hook으로 할 것
-    8. useMemo → 쓰지말고 useLocaion Hook으로 할 것
     <Br>
 
     -  **최종 프로젝트 완성 시 중점으로 볼 것**
