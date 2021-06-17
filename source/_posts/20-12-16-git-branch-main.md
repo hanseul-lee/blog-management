@@ -1,13 +1,15 @@
 ---
-title: "[git] Default 브랜치명 변경하기 (master -> main)"
-categories: [StudyLog, git]
-tags: [github,git]
+title: '[Git] Default 브랜치명 변경하기 (master -> main)'
+categories: [StudyLog, Git]
+tags: [github, git]
 thumbnailImage: git.jpeg
 date: 2020-12-17 11:26:36
 ---
 
 <!-- more -->
+
 github의 default의 브랜치명을 master에서 main으로 변경하는 방법을 알아봅시다.
+
 <!-- excerpt -->
 
 # github의 default 브랜치가 main으로 바뀌다
@@ -25,21 +27,25 @@ github의 default의 브랜치명을 master에서 main으로 변경하는 방법
 
 <br>
 
-### step1. 
+### step1.
+
 - git branch 명령어 "-m/-M" 옵션을 사용해 브랜치 이름을 변경하고 remote 저장소에 push
+
 ```bash
 $ git branch -m master main
 $ git push -u origin main
 ```
 
-### step2. 
+### step2.
+
 - Github Repository 설정 변경
 
 {% image center step2.jpg 950px %}
 
 <br>
 
-### step3. 
+### step3.
+
 - 기존 브랜치 삭제
 
 {% image center step3.jpg 950px %}
@@ -49,6 +55,7 @@ $ git push -u origin main
 <br>
 
 ---
+
 **Reference**
 
 - [github blog](https://github.blog/changelog/2020-10-01-the-default-branch-for-newly-created-repositories-is-now-main/)
