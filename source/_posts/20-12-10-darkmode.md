@@ -1,6 +1,6 @@
 ---
-title: "[js연습] Darkmode 구현하기"
-categories: [StudyLog, js연습]
+title: '[JS연습] Darkmode 구현하기'
+categories: [StudyLog, JS연습]
 tags: [javascript]
 thumbnailImage: js.png
 date: 2020-12-10 20:04:01
@@ -34,7 +34,7 @@ date: 2020-12-10 20:04:01
     />
     <style>
       body {
-        font-family: "Open Sans";
+        font-family: 'Open Sans';
         font-weight: 300;
         /* display: none; */
       }
@@ -119,18 +119,18 @@ date: 2020-12-10 20:04:01
       nemo!
     </article>
     <script>
-      window.addEventListener("DOMContentLoded", () => {
-        document.body.classList.toggle("dark", localStorage.getItem("theme"));
+      window.addEventListener('DOMContentLoded', () => {
+        document.body.classList.toggle('dark', localStorage.getItem('theme'));
       });
-      const $toggleButton = document.querySelector(".toggle-button");
+      const $toggleButton = document.querySelector('.toggle-button');
       $toggleButton.onclick = () => {
-        document.body.classList.toggle("dark");
-        const theme = localStorage.getItem("theme");
+        document.body.classList.toggle('dark');
+        const theme = localStorage.getItem('theme');
         if (theme) {
-          localStorage.removeItem("theme");
+          localStorage.removeItem('theme');
         } else {
-          localStorage.setItem("theme", "dark");
-          document.body.classList.add("dark");
+          localStorage.setItem('theme', 'dark');
+          document.body.classList.add('dark');
         }
       };
     </script>
@@ -191,12 +191,12 @@ date: 2020-12-10 20:04:01
 
 ### 5. 모든 페이지가 렌더링되고 다크 모드 적용되는 현상 해결하기
 
-전역에 다 크모드 적용을 감지하고 이를 적용하는 코드를 작성하면 화면이 한 번 라이트 모드로 적용된 후 뒤이어 다크 모드로 변경된다. 이를 해결하기 위해 다음과 같은 2가지 방법을 사용할 수 있다.
+전역에 다크 모드 적용을 감지하고 이를 적용하는 코드를 작성하면 화면이 한 번 라이트 모드로 적용된 후 뒤이어 다크 모드로 변경된다. 이를 해결하기 위해 다음과 같은 2가지 방법을 사용할 수 있다.
 
 1. `window.onload`
 2. `window.DOMContentLoded`
 
-1의 window.onload는 **DOMContentLoaded 이벤트가 발생한 이후, 브라우저의 모든 리소스(이미지, 폰트, script 등)의 로딩이 완료되었을 때** 발생하고, 2의 DOMContentLoaded는 **HTML 문서의 로드와 파싱이 완료되어 DOM 생성이 완료되었을 때** 발생한다. 따라서 결론만 말하자면 2의 DOMContentLoadedrk 훨씬 빠르게 발생하고 유용하다.
+1의 window.onload는 **DOMContentLoaded 이벤트가 발생한 이후, 브라우저의 모든 리소스(이미지, 폰트, script 등)의 로딩이 완료되었을 때** 발생하고, 2의 DOMContentLoaded는 **HTML 문서의 로드와 파싱이 완료되어 DOM 생성이 완료되었을 때** 발생한다. 따라서 결론만 말하자면 2의 DOMContentLoadedrk가 훨씬 빠르게 발생하고 유용하다.
 
 먼저 `window.onload`를 사용하는 방법을 살펴보면 다음과 같다.
 
@@ -214,8 +214,8 @@ window.onload = () => {
 하지만 css에서 display:none을 해주지 않으면 기존처럼 렌더링이 모두 완료된 화면이 먼저 보이기 때문에 아래와 같이 `DOMContentLoaded`를 사용하는 것이 보다 간편하고 바람직하다. 참고로 DOMContentLoaded는 addEventListener를 통해서만 사용가능하다.
 
 ```js
-window.addEventListener("DOMContentLoded", () => {
-  document.body.classList.toggle("dark", localStorage.getItem("theme"));
+window.addEventListener('DOMContentLoded', () => {
+  document.body.classList.toggle('dark', localStorage.getItem('theme'));
 });
 ```
 
