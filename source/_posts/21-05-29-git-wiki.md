@@ -1,6 +1,6 @@
 ---
-title: '[git] fork한 repo에서 wiki 업데이트 후, upstream에 반영하기'
-categories: [StudyLog, git]
+title: '[Git] fork한 repo에서 wiki 업데이트 후, upstream에 반영하기'
+categories: [StudyLog, Git]
 tags: [gitHub, git]
 thumbnailImage: git.jpeg
 updated:
